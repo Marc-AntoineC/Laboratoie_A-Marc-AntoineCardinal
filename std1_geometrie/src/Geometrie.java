@@ -4,47 +4,47 @@ public class Geometrie {
 
         //variables
         double rayon = 10;
-        double scercle;
+        double sCercle;
         double hauteur = 7;
-        double scube;
-        double vcube;
-        double hcylindre = 5;
-        double scylindre;
-        double vcylindre;
-        double rcone = 3;
-        double acone;
-        double scone;
-        double vcone;
+        double sCube;
+        double vCube;
+        double hCylindre = 5;
+        double sCylindre;
+        double vCylindre;
+        double rCone = 3;
+        double aCone;
+        double sCone;
+        double vCone;
 
         //Opérations
-        scercle = Math.PI*Math.pow(rayon, 2);
-        scube = 6*Math.pow(hauteur, 2);
-        vcube = Math.pow(hauteur, 3);
-        scylindre = (2*Math.PI*rayon*hcylindre) + (2*Math.PI*Math.pow(rayon, 2)) ;
-        vcylindre = (2*Math.PI*Math.pow(rayon, 2))*hcylindre;
-        acone = Math.sqrt(Math.pow(rcone, 2) + Math.pow(hauteur, 2));
-        scone = (Math.PI*rcone*acone) + (Math.PI* Math.pow(rcone, 2));
-        vcone = ((Math.PI* Math.pow(rcone, 2))*hauteur)/3;
+        sCercle = Math.PI*Math.pow(rayon, 2);
+        sCube = 6*Math.pow(hauteur, 2);
+        vCube = Math.pow(hauteur, 3);
+        sCylindre = (2*Math.PI*rayon*hCylindre) + (2*Math.PI*Math.pow(rayon, 2)) ;
+        vCylindre = (2*Math.PI*Math.pow(rayon, 2))*hCylindre;
+        aCone = Math.sqrt(Math.pow(rCone, 2) + Math.pow(hauteur, 2));
+        sCone = (Math.PI*rCone*aCone) + (Math.PI* Math.pow(rCone, 2));
+        vCone = ((Math.PI* Math.pow(rCone, 2))*hauteur)/3;
 
         //Affichage
         System.out.println("Le cercle");
         System.out.println("-Rayon:" + rayon);
-        System.out.println("-Surface:" + scercle);
+        System.out.println("-Surface:" + sCercle);
         System.out.println("Le cube");
         System.out.println("-Longueur:" + hauteur);
-        System.out.println("-Surface:" + scube);
-        System.out.println("-Volume:" + vcube);
+        System.out.println("-Surface:" + sCube);
+        System.out.println("-Volume:" + vCube);
         System.out.println("Le cylindre");
         System.out.println("-Rayon:" + rayon);
-        System.out.println("-Hauteur:" + hcylindre);
-        System.out.println("-Surface:" + scylindre);
-        System.out.println("-Volume:" + vcylindre);
+        System.out.println("-Hauteur:" + hCylindre);
+        System.out.println("-Surface:" + sCylindre);
+        System.out.println("-Volume:" + vCylindre);
         System.out.println("Le cone");
-        System.out.println("-Rayon:" + rcone);
+        System.out.println("-Rayon:" + rCone);
         System.out.println("-Hauteur:" + hauteur);
-        System.out.println("-Apothème:" + acone);
-        System.out.println("-Surface:" + scone);
-        System.out.println("-Volume:" + vcone);
+        System.out.println("-Apothème:" + aCone);
+        System.out.println("-Surface:" + sCone);
+        System.out.println("-Volume:" + vCone);
 
     }
 }
